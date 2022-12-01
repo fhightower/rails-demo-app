@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
       context: .
     volumes:
-      - ./:/code
+      - ./blog/:/code
     ports:
       - 3000:3000
 
